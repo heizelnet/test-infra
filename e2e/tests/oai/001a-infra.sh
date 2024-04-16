@@ -38,9 +38,9 @@ source "${LIBDIR}/_assertions.sh"
 
 declare -A clusters
 clusters=(
-    ["core"]="172.18.16.0/20"
-    ["regional"]="172.18.32.0/20"
-    ["edge"]="172.18.48.0/20"
+    ["core"]="10.10.0.0/24"
+    ["regional"]="10.10.0.0/24"
+    ["edge"]="10.10.0.0/24"
 )
 
 k8s_apply "$TESTDIR/001-infra.yaml"
