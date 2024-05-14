@@ -8,7 +8,7 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
 
-k8s:  
+k8s:
   context: kubernetes-admin@mgmt
 
 gitea:
